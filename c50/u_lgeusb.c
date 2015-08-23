@@ -41,6 +41,7 @@
 #endif//CONFIG_64BIT
 #include "u_lgeusb.h"
 #define MAC_OS_TYPE	0x02
+#define WIN_LINUX_TYPE	0xFF
 
 static struct mutex lgeusb_lock;
 
