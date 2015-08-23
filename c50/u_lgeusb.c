@@ -365,6 +365,8 @@ static struct platform_driver lge_android_usb_platform_driver = {
 };
 
 #ifdef CONFIG_USB_G_LGE_MULTIPLE_CONFIGURATION
+#define MAC_OS_TYPE	0x02
+#define WIN_LINUX_TYPE	0xFF
 void lgeusb_set_host_os(u16 w_length)
 {
 	switch (w_length) {
